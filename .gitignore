@@ -1,0 +1,13 @@
+# Simulation & Synthesis build artifacts
+*.vcd
+*.vvp
+*.log
+a.out
+work/
+obj_dir/
+
+# Editor & OS files
+.DS_Store
+*.swp
+*.swo
+*~
