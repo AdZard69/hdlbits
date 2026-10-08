@@ -30,9 +30,11 @@ HDLBits/
 │   │   ├── 07_vector_reversal.v
 │   │   ├── 08_replication_operator.v
 │   │   └── 09_vector5_more_replication.v
-│   └── 03-modules-hierarchy/
-│       ├── 01_modules.v
-│       └── 02_module_pos.v
+│   ├── 03-modules-hierarchy/
+│   │   ├── 01_modules.v
+│   │   └── 02_module_pos.v
+│   └── 04-procedures/
+│       └── 01_alwaysblock1.v
 └── README.md
 ```
 
@@ -77,3 +79,8 @@ HDLBits/
 | :--- | :--- | :--- |
 | Modules | [`01_modules.v`](02-verilog-language/03-modules-hierarchy/01_modules.v) | Module instantiation |
 | Connecting Ports by Position | [`02_module_pos.v`](02-verilog-language/03-modules-hierarchy/02_module_pos.v) | Positional port mapping |
+
+#### 2.4 Procedures
+| Problem | File | Description |
+| :--- | :--- | :--- |
+| Always Blocks (Combinational) | [`01_alwaysblock1.v`](02-verilog-language/04-procedures/01_alwaysblock1.v) | Combinational always block vs continuous assign |
